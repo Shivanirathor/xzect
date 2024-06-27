@@ -6,7 +6,7 @@ import Work from "./Work";
 import Clients from "./Clients";
 import Writing from "./Writing";
 import Footer from "./Footer";
-
+import "../app/globals.css";
 const home = () => {
   return (
     <>

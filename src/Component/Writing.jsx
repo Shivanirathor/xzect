@@ -1,12 +1,12 @@
 const Writing = () => {
     return (
         <div>
-        <h1 class="writing">Writing</h1>
+        <h1 className="writing">Writing</h1>
         <div>
-          <div class="writing-box">
+          <div className="writing-box">
             <img src="/images/writing-1.jpg" alt="" />
   
-            <div class="writing-text">
+            <div className="writing-text">
               <h1>That which does not kill us makes us stronger</h1>
               <p>
                 Bring to the table win-win survival strategies to ensure proactive
@@ -16,10 +16,10 @@ const Writing = () => {
               </p>
             </div>
           </div>
-          <div class="writing-box">
+          <div className="writing-box">
             <img src="/images/writing-2.jpg" alt="" />
   
-            <div class="writing-text">
+            <div className="writing-text">
               <h1>That which does not kill us makes us stronger</h1>
               <p>
                 Bring to the table win-win survival strategies to ensure proactive
@@ -29,10 +29,10 @@ const Writing = () => {
               </p>
             </div>
           </div>
-          <div class="writing-box">
+          <div className="writing-box">
             <img src="/images/writing-3.jpg" alt="" />
   
-            <div class="writing-text">
+            <div className="writing-text">
               <h1>That which does not kill us makes us stronger</h1>
               <p>
                 Bring to the table win-win survival strategies to ensure proactive
@@ -42,7 +42,7 @@ const Writing = () => {
               </p>
             </div>
           </div>
-          <button class="more-post">More Post</button>
+          <button className="more-post">More Post</button>
         </div>
       </div>
     );

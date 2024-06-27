@@ -1,27 +1,38 @@
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaPinterest } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaVimeo } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-      <div class="footer">
+      <div className="footer">
         <img
           src="https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt=""
         />
         <h1>Shivani Rathor</h1>
-        <div class="social-links">
+        <div className="social-links">
           <a href="https://www.facebook.com" target="_blank">
-            <i class="fa-brands fa-facebook"></i>
+            <FaFacebook />
           </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <FaInstagram />
+          </a>
+
           <a href="https://www.twitter.com" target="_blank">
-            <i class="fab fa-twitter"></i>
+            <FaTwitter />
           </a>
           <a href="https://www.linkedin.com" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
+            <FaLinkedin />
           </a>
           <a href="https://www.github.com" target="_blank">
-            <i class="fab fa-github"></i>
+            <FaGithub />
           </a>
-          <a href="https://www.pinterest.com" target="_blank">
-            <i class="fab fa-pinterest"></i>
+          <a href="https://www.vimeo.com" target="_blank">
+            <FaVimeo />
           </a>
         </div>
         <p>
@@ -31,7 +42,7 @@ const Footer = () => {
           and cutting-edge web solutions.
         </p>
       </div>
-      <p class="ending">
+      <p className="ending">
         2022 © Akio. All Right Reserved. Published with Hugo and Akio.
       </p>
     </div>

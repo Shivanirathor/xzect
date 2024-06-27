@@ -1,21 +1,36 @@
-
-
+import { FaSpotify } from "react-icons/fa";
+import { FaApple } from "react-icons/fa";
+import { SiAdobe } from "react-icons/si";
+import { BiLogoNetlify } from "react-icons/bi";
+import { FaPinterest } from "react-icons/fa";
 const Companies = () => {
-    return (
-        <div class="container-2">
-        <p>I've worked with some great companies</p>
-        <ul class="internet-name">
-          <li>Google</li>
-          <li><i class="fa-brands fa-spotify fa-lg"></i> <span>Spotify</span></li>
-          <li><i class="fa-brands fa-pinterest fa-lg"></i> <span>Pinterest</span></li>
-          <li> <span>Netlify</span></li>
-          <li><i class="fa-brands fa-apple fa-xl"></i></li>
-          <li> <span>Adobe</span></li>
-        </ul>
-        <hr />
-      </div>
-    );
-  };
-  
-  export default Companies;
-  
+  return (
+    <div className="container-2">
+      <p>I've worked with some great companies</p>
+      <ul className="internet-name">
+        <li>Google</li>
+        <li>
+          <FaSpotify /> <span>Spotify</span>
+        </li>
+        <li>
+          <FaPinterest />
+          <span>Pinterest</span>
+        </li>
+        <li>
+          <BiLogoNetlify />
+          <span>Netlify</span>
+        </li>
+        <li>
+          <FaApple />
+        </li>
+        <li>
+          <SiAdobe />
+          <span>Adobe</span>
+        </li>
+      </ul>
+      <hr />
+    </div>
+  );
+};
+
+export default Companies;

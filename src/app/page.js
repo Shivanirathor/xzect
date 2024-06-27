@@ -1,6 +1,6 @@
 import React from "react";
-import Home from "./Component/Home";
-import "../app/globals.css";
+import Home from "../Component/Home";
+
 
 const page = () => {
   return (
