@@ -2,7 +2,6 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaPinterest } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaVimeo } from "react-icons/fa";
 const Footer = () => {

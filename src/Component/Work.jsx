@@ -27,7 +27,7 @@ const Work = () => {
             a dust cover, found on...
           </p>
         </div>
-        <div classNameName="cards">
+        <div className="cards">
           <img src="/images/card-3.jpg" alt="" />
           <h3>Music flyer</h3>
           <h1>Geametric band</h1>
