@@ -5,7 +5,7 @@ const Clients = () => {
         <div className="clients-card">
           <div className="client-single">
             <div className="clients">
-              <img src="/images/client-1.jpg" alt="" />
+              <Image src="/images/client-1.jpg" alt="" />
               <div className="client-name">
                 <h3>Hanna Septimus</h3>
                 <p>Product Designer</p>
@@ -19,7 +19,7 @@ const Clients = () => {
           </div>
           <div className="client-single">
             <div className="clients">
-              <img src="/images/client-2.jpg" alt="" />
+              <Image src="/images/client-2.jpg" alt="" />
               <div className="client-name">
                 <h3>Carla Rosser</h3>
                 <p>Statistician</p>
@@ -33,7 +33,7 @@ const Clients = () => {
           </div>
           <div className="client-single">
             <div className="clients">
-              <img src="/images/client-3.jpg" alt="" />
+              <Image src="/images/client-3.jpg" alt="" />
               <div className="client-name">
                 <h3>Carter Bergson</h3>
                 <p>CEO, Founder</p>
@@ -47,7 +47,7 @@ const Clients = () => {
           </div>
           <div className="client-single">
             <div className="clients">
-              <img src="/images/client-4.jpg" alt="" />
+              <Image src="/images/client-4.jpg" alt="" />
               <div className="client-name">
                 <h3>Maria Curtis</h3>
                 <p>Team Lead</p>
@@ -61,7 +61,7 @@ const Clients = () => {
           </div>
           <div className="client-single">
             <div className="clients">
-              <img src="/images/client-5.jpg" alt="" />
+              <Image src="/images/client-5.jpg" alt="" />
               <div className="client-name">
                 <h3>Mira Carder</h3>
                 <p>Data Scientist</p>
@@ -75,7 +75,7 @@ const Clients = () => {
           </div>
           <div className="client-single">
             <div className="clients">
-              <img src="/images/client-6.jpg" alt="" />
+              <Image src="/images/client-6.jpg" alt="" />
               <div className="client-name">
                 <h3>Jordyn Franci</h3>
                 <p>Personal Trainer</p>
@@ -89,7 +89,7 @@ const Clients = () => {
           </div>
           <div className="client-single">
             <div className="clients">
-              <img src="/images/client-6.jpg" alt="" />
+              <Image src="/images/client-6.jpg" alt="" />
               <div className="client-name">
                 <h3>Wilson Dorwart</h3>
                 <p>Financial Manager</p>
@@ -103,7 +103,7 @@ const Clients = () => {
           </div>
           <div className="client-single">
             <div className="clients">
-              <img src="/images/client-1.jpg" alt="" />
+              <Image src="/images/client-1.jpg" alt="" />
               <div className="client-name">
                 <h3>Madelyn Herwitz</h3>
                 <p>Frontend Engineer</p>
@@ -117,7 +117,7 @@ const Clients = () => {
           </div>
           <div className="client-single">
             <div className="clients">
-              <img src="/images/client-4.jpg" alt="" />
+              <Image src="/images/client-4.jpg" alt="" />
               <div className="client-name">
                 <h3>Anika Schleifer</h3>
                 <p>Fitness Director</p>

@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <div className="container">
       <div className="text-1">
-        <img src="/images/myImg.jpg" alt="" />
+        <Image src="/images/myImage.jpg" alt="" />
         <p className="name">
           Hey everyone,
           <br />
@@ -23,8 +23,8 @@ const Header = () => {
           <button className="sub-btn">Subscribe</button>
         </div>
       </div>
-      <div className="img-1">
-        <img src="/images/img-1.jpg" alt="img-1" />
+      <div className="Image-1">
+        <Image src="/images/Image-1.jpg" alt="Image-1" />
       </div>
     </div>
   );

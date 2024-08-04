@@ -4,7 +4,7 @@ const Writing = () => {
         <h1 className="writing">Writing</h1>
         <div>
           <div className="writing-box">
-            <img src="/images/writing-1.jpg" alt="" />
+            <Image src="/images/writing-1.jpg" alt="" />
   
             <div className="writing-text">
               <h1>That which does not kill us makes us stronger</h1>
@@ -17,7 +17,7 @@ const Writing = () => {
             </div>
           </div>
           <div className="writing-box">
-            <img src="/images/writing-2.jpg" alt="" />
+            <Image src="/images/writing-2.jpg" alt="" />
   
             <div className="writing-text">
               <h1>That which does not kill us makes us stronger</h1>
@@ -30,7 +30,7 @@ const Writing = () => {
             </div>
           </div>
           <div className="writing-box">
-            <img src="/images/writing-3.jpg" alt="" />
+            <Image src="/images/writing-3.jpg" alt="" />
   
             <div className="writing-text">
               <h1>That which does not kill us makes us stronger</h1>
