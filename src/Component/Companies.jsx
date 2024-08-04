@@ -6,7 +6,7 @@ import { FaPinterest } from "react-icons/fa";
 const Companies = () => {
   return (
     <div className="container-2">
-      <p>I've worked with some great companies</p>
+      <p>I have worked with some great companies</p>
       <ul className="internet-name">
         <li>Google</li>
         <li>
