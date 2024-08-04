@@ -1,3 +1,4 @@
+import Image from 'next/image';
 const Writing = () => {
     return (
         <div>
@@ -17,6 +18,7 @@ const Writing = () => {
             </div>
           </div>
           <div className="writing-box">
+            
             <Image src="/images/writing-2.jpg" alt="" />
   
             <div className="writing-text">
